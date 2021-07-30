@@ -19,7 +19,7 @@ class Reproductor extends Multimedia{
   }
 
   setInicio(time) {
-    super._url += `?start=${time}`;
+    this._url += `?start=${time}`;
   }
 
   playMultimedia() {
